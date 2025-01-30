@@ -1,12 +1,11 @@
-/* eslint-disable react/prop-types */
 const FormCheckbox = ({ label, name, defaultValue, size }) => {
   return (
-    <div className="form-control items-center">
-      <label htmlFor={name} className="label cursor-pointer">
-        <span className="label-text capitalize">{label}</span>
+    <div className='form-control items-center'>
+      <label htmlFor={name} className='label cursor-pointer'>
+        <span className='label-text capitalize'>{label}</span>
       </label>
       <input
-        type="checkbox"
+        type='checkbox'
         name={name}
         defaultChecked={defaultValue}
         className={`checkbox checkbox-primary ${size}`}
